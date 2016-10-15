@@ -9,7 +9,7 @@
     <label class="item item-input">
       <i class="icon fa fa-search placeholder-icon"></i>
       <form
-        ng-submit="findSpecialists.test()">
+        ng-submit="findSpecialists.search()">
         <input type="text" placeholder="Search" ng-model="findSpecialists.searchText">
       </form>
     </label>
@@ -17,7 +17,7 @@
 
   <ion-list>
     <a class="item item-icon-right" ng-repeat="option in findSpecialists.listKeys(findSpecialists.menuOptions)"
-       ui-sref="FindSpecialists">
+       ui-sref="services">
       {{option}}
       <i class="icon fa fa-chevron-right"></i>
     </a>
