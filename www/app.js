@@ -6,7 +6,8 @@
 // the 2nd parameter is an array of 'requires'
   angular.module('app', [
       'ionic',
-      'ui.router'
+      'ui.router',
+      'ngSanitize'
     ]
   )
     .run(ionicSetup);

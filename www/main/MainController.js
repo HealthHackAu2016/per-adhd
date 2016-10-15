@@ -1,4 +1,4 @@
-(function(){
+(function () {
   "use strict";
 
   angular
@@ -8,7 +8,18 @@
   function MainController() {
     var vm = this;
 
-    vm.title = "Main page title";
+    vm.title = "Welcome";
+
+    vm.items = [
+      {
+        text: 'Find a Specialist',
+        imgSource: '../img/default-avatar.png'
+      },
+      {
+        text: 'Notes & Prep',
+        imgSource: '../img/default-notes.png'
+      }
+    ]
 
   }
 
