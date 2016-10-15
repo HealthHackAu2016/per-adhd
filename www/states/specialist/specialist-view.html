@@ -1,0 +1,30 @@
+<ion-header-bar align-title="center" class="bar-stable">
+  <button class="button icon-left fa fa-chevron-left" onclick="history.back()">Back</button>
+  <h1 class="title">{{specialist.title}}</h1>
+</ion-header-bar>
+
+<ion-content>
+
+
+  <div class="list card" ng-repeat="person in specialist.person">
+
+    <div class="item">
+      <h2>{{person.name}}</h2>
+      <p>{{person.number}}</p>
+    </div>
+
+    <div class="item item-body">
+      <p>
+        {{person.expertise}}
+      </p>
+    </div>
+
+  </div>
+
+  <ion-list>
+    <a class="item item-icon-right" >
+      {{blah}}
+      <i class="icon fa fa-chevron-right"></i>
+    </a>
+  </ion-list>
+</ion-content>

@@ -3,35 +3,45 @@
 
   angular
     .module('app')
-    .factory('Specialists', Specialists);
+    .factory('SpecialistsService', SpecialistsService);
 
-  function Specialists() {
+  function SpecialistsService() {
 
     var service = {};
 
-    service.getServices = getServices;
+    service.getBy = getBy;
+    service.getAll = getAll;
 
+    var mockData =
+      [
+        {
+          specialistType: 'Paediatritions',
+          expertise: ['ADHD', 'Sky Diving', 'Being Awesome'],
+          area: 'Joondalup',
+          name: 'Mandy',
+          number: '000-000'
+        },
+        {
+          specialistType: 'Psych',
+          expertise: ['Children', 'ADHD', 'Being Awesome'],
+          area: 'woop woop',
+          name: 'Bob',
+          number: '111-111'
+        }
+      ];
 
-    function getServices() {
-      var mockData = {
-        paediatritions: [
-          {
-              name: 'Mandy',
-              number: '000-000'
-          }
-        ],
-        psychs: [
-            {
-              name: 'Bob',
-              number: '111-111'
-            }
-        ]
-      };
+    function getBy(getterFunction) {
+      if(getterFunction ==  null) return mockData;
+      else {
+        service.currentList = mockData.filter(getterFunction);
+        return service.currentList;
+      }
+    }
 
+    function getAll() {
       return mockData;
     }
 
     return service;
   }
-
 })();

@@ -16,25 +16,41 @@
     };
 
     var findSpecialists = {
-      name: 'FindSpecialists',
+      name: 'findSpecialists',
       url: '/find-specialists',
       templateUrl: '../states/find-a-specialist/find-specialists-view.html',
-      controller: 'FindSpecialists',
+      controller: 'FindSpecialistsController',
       controllerAs: 'findSpecialists'
     };
 
-    var services = {
-      name: 'services',
-      url: '/services',
-      templateUrl: '../states/services/services-view.html',
-      controller: 'Services',
-      controllerAs: 'services'
+    var filter = {
+      name: 'filter',
+      url: '/filter',
+      params: {
+        title: 'default',
+        filterBy: null
+      },
+      templateUrl: '../states/filter-page/filter-view.html',
+      controller: 'FilterController',
+      controllerAs: 'filter'
+    };
+
+    var specialist = {
+      name: 'specialist',
+      url: '/specialist',
+      params: {
+        persons: []
+      },
+      templateUrl: '../states/specialist/specialist-view.html',
+      controller: 'SpecialistController',
+      controllerAs: 'specialist'
     };
 
     $urlRouterProvider.otherwise('/');
     $stateProvider.state(mainState);
     $stateProvider.state(findSpecialists);
-    $stateProvider.state(services);
+    $stateProvider.state(filter);
+
   }
 
 })();

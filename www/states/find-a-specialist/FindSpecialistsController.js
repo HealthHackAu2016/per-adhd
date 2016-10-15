@@ -3,52 +3,35 @@
 
   angular
     .module('app')
-    .controller('FindSpecialists', FindSpecialists);
+    .controller('FindSpecialistsController', FindSpecialistsController);
 
-  FindSpecialists.$inject = ['$state'];
-  function FindSpecialists($state) {
+  FindSpecialistsController.$inject = ['$state'];
+  function FindSpecialistsController($state) {
     var vm = this;
 
     vm.title = 'Find a Specialist';
     vm.menuOptions =
     {
-      "Find by Service": findByService,
-      "Find by Area": findByArea,
-      "Find by Speciality": findBySpeciality,
-      "Saved": saved
+      "Find by Service": 'specialistType',
+      "Find by Area": 'area',
+      "Find by Speciality": 'expertise'
     };
     vm.listKeys = listKeys;
-    vm.back = back;
     vm.searchText = "";
     vm.search = search;
-
+    vm.filterBy = filterBy;
 
     function search() {
       console.log(vm.searchText);
+
     }
 
-    function findByService() {
-      return 'services';
-    }
-
-    function findByArea() {
-      return null;
-    }
-
-    function findBySpeciality() {
-      return null;
-    }
-
-    function saved() {
-      return null;
+    function filterBy(filterType, title) {
+      $state.go('filter', {filterBy: filterType, title: title});
     }
 
     function listKeys(object) {
       return Object.keys(object);
-    }
-
-    function back() {
-      $state.go('main');
     }
 
 

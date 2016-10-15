@@ -14,7 +14,7 @@
       {
         text: 'Find a Specialist',
         imgSource: '../img/default-avatar.png',
-        state: 'FindSpecialists'
+        state: 'findSpecialists'
       },
       {
         text: 'Notes & Prep',

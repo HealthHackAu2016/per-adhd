@@ -1,5 +1,5 @@
 <ion-header-bar align-title="center" class="bar-stable">
-  <button class="button icon-left fa fa-chevron-left" ng-click="findSpecialists.back()">Back</button>
+  <button class="button icon-left fa fa-chevron-left" onclick="history.back()">Back</button>
   <h1 class="title">{{findSpecialists.title}}</h1>
 </ion-header-bar>
 
@@ -17,7 +17,7 @@
 
   <ion-list>
     <a class="item item-icon-right" ng-repeat="option in findSpecialists.listKeys(findSpecialists.menuOptions)"
-       ui-sref="services">
+       ng-click="findSpecialists.filterBy(findSpecialists.menuOptions[option], option)">
       {{option}}
       <i class="icon fa fa-chevron-right"></i>
     </a>
