@@ -3,22 +3,32 @@
 
   angular
     .module('app')
-    .factory('FindSpecialists', FindSpecialists);
+    .factory('Specialists', Specialists);
 
-  function FindSpecialists() {
+  function Specialists() {
 
-    var service = {
-      specialist1: {
-        name: 'bob',
-        speciality: 'children'
-      }
-    };
+    var service = {};
 
     service.getServices = getServices;
 
 
     function getServices() {
-      return service.specialist1;
+      var mockData = {
+        paediatritions: [
+          {
+              name: 'Mandy',
+              number: '000-000'
+          }
+        ],
+        psychs: [
+            {
+              name: 'Bob',
+              number: '111-111'
+            }
+        ]
+      };
+
+      return mockData;
     }
 
     return service;

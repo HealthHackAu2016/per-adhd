@@ -5,8 +5,8 @@
     .module('app')
     .controller('FindSpecialists', FindSpecialists);
 
-  FindSpecialists.$inject = ['FindSpecialists', '$state'];
-  function FindSpecialists(FindSpecialists, $state) {
+  FindSpecialists.$inject = ['$state'];
+  function FindSpecialists($state) {
     var vm = this;
 
     vm.title = 'Find a Specialist';
@@ -24,23 +24,23 @@
 
 
     function search() {
-      console.log(vm.search);
+      console.log(vm.searchText);
     }
 
     function findByService() {
-      $state.go('services')
+      return 'services';
     }
 
     function findByArea() {
-      return FindSpecialists.specialist1.name;
+      return null;
     }
 
     function findBySpeciality() {
-      return FindSpecialists.specialist1.name;
+      return null;
     }
 
     function saved() {
-      return FindSpecialists.specialist1.name;
+      return null;
     }
 
     function listKeys(object) {

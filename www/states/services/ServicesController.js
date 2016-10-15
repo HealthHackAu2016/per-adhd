@@ -5,15 +5,17 @@
     .module('app')
     .controller('Services', Services);
 
-  Services.$inject = ['FindSpecialists'];
-  function Services(FindSpecialists) {
+  Services.$inject = ['Specialists', '$state'];
+  function Services(Specialists, $state) {
     var vm = this;
 
-    vm.title = 'foo';
-    vm.getServices = getServices;
+    vm.title = 'Services';
+    vm.servicesList = Object.keys(Specialists.getServices());
+    vm.back = back;
 
-    function getServices() {
-      return FindSpecialists.getServices();
+
+    function back() {
+      $state.go('FindSpecialists');
     }
 
   }

@@ -6,9 +6,9 @@
 <ion-content>
 
   <ion-list>
-    <a class="item item-icon-right" ng-repeat="service in services.getServices()"
+    <a class="item item-icon-right" ng-repeat="service in services.servicesList"
        ui-sref="FindSpecialists">
-      {{service.name}}
+      {{service}}
       <i class="icon fa fa-chevron-right"></i>
     </a>
   </ion-list>

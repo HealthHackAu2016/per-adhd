@@ -34,6 +34,7 @@
     $urlRouterProvider.otherwise('/');
     $stateProvider.state(mainState);
     $stateProvider.state(findSpecialists);
+    $stateProvider.state(services);
   }
 
 })();
