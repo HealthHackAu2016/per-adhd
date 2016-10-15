@@ -8,7 +8,7 @@
   function MainController() {
     var vm = this;
 
-
+    vm.title = "Main page title";
 
   }
 
