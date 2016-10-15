@@ -1,6 +1,4 @@
 {
-	//Source http://www.pmh.health.wa.gov.au/services/child_development_service/parents.htm#links
-
 	paediatricians: 'http://www.pmh.health.wa.gov.au/services/child_development_service/docs/Paediatricians_Private_Practice_List.pdf',
 	ot: 'http://www.pmh.health.wa.gov.au/services/child_development_service/docs/Occupational_Private_Practice_List.pdf',
 	psychologist: 'http://www.pmh.health.wa.gov.au/services/child_development_service/docs/Clinical_Psychologist_Private_Practice_List.pdf',
