@@ -1,0 +1,25 @@
+<ion-header-bar align-title="center" class="bar-stable">
+  <button class="button icon-left fa fa-chevron-left" ng-click="findSpecialists.back()">Back</button>
+  <h1 class="title">{{findSpecialists.title}}</h1>
+</ion-header-bar>
+
+<ion-content>
+
+  <div class="list list-inset">
+    <label class="item item-input">
+      <i class="icon fa fa-search placeholder-icon"></i>
+      <form
+        ng-submit="findSpecialists.test()">
+        <input type="text" placeholder="Search" ng-model="findSpecialists.searchText">
+      </form>
+    </label>
+  </div>
+
+  <ion-list>
+    <a class="item item-icon-right" ng-repeat="option in findSpecialists.listKeys(findSpecialists.menuOptions)"
+       ui-sref="FindSpecialists">
+      {{option}}
+      <i class="icon fa fa-chevron-right"></i>
+    </a>
+  </ion-list>
+</ion-content>

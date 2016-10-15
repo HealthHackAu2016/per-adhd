@@ -9,7 +9,7 @@
   function ControllerName(somePlugin) {
     var vm = this;
 
-    vm.VariableYouWantAccessibleToTheDom = 'foo';
+    vm.title = 'foo';
 
   }
 
