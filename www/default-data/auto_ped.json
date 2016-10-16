@@ -4,7 +4,7 @@
         "expertise": [
             "Adolescents"
         ],
-        "name": "CHU",
+        "name": "Dr Hu",
         "number": "9497 1771",
         "specialistType": "paediatrican"
     },
@@ -15,7 +15,7 @@
             "ECHO",
             "General paediatric assessments"
         ],
-        "name": "JUDKINSA",
+        "name": "Dr Ggie Udkin",
         "number": "6162 1615",
         "specialistType": "paediatrican"
     },
@@ -25,7 +25,7 @@
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "JONGELIN",
+        "name": "Dr Ongelin",
         "number": "9400 9910",
         "specialistType": "paediatrican"
     },
@@ -34,7 +34,7 @@
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "SCURLOCKJ",
+        "name": "Dr Acqueline Curloc",
         "number": "9381 7211",
         "specialistType": "paediatrican"
     },
@@ -46,7 +46,7 @@
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "PANOTIDISN",
+        "name": "Dr Ikki Anotidi",
         "number": "6162 1615",
         "specialistType": "paediatrican"
     },
@@ -55,7 +55,7 @@
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "JESS",
+        "name": "Dr Ess",
         "number": "",
         "specialistType": "paediatrican"
     },
@@ -65,7 +65,7 @@
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "BEL",
+        "name": "Dr El",
         "number": "9300 9559",
         "specialistType": "paediatrican"
     },
@@ -74,7 +74,7 @@
         "expertise": [
             "Adolescents"
         ],
-        "name": "CHU",
+        "name": "Dr Hu",
         "number": "9497 1771",
         "specialistType": "paediatrican"
     },
@@ -83,7 +83,7 @@
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "WRA",
+        "name": "Dr Ra",
         "number": "9380 6055",
         "specialistType": "paediatrican"
     },
@@ -93,7 +93,7 @@
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "SMIT",
+        "name": "Dr Mit",
         "number": "9300 9559",
         "specialistType": "paediatrican"
     },
@@ -103,7 +103,7 @@
             "Griffiths developmental assessments",
             "Autism Spectrum Disorder"
         ],
-        "name": "SRINIVAS JOIR",
+        "name": "Dr Avisha O",
         "number": "9400 9910",
         "specialistType": "paediatrican"
     },
@@ -114,7 +114,7 @@
             "General paediatrician",
             "Adolescents"
         ],
-        "name": "HAA",
+        "name": "Dr Aa",
         "number": "9203 5641",
         "specialistType": "paediatrican"
     },
@@ -125,7 +125,7 @@
             "Griffiths developmental assessments",
             "Autism Spectrum Disorder"
         ],
-        "name": "SRINIVAS JOIR",
+        "name": "Dr Avisha O",
         "number": "9321 9594",
         "specialistType": "paediatrican"
     },
@@ -135,7 +135,7 @@
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "CHRISTIER",
+        "name": "Dr Ichard Hristi",
         "number": "9274 6982",
         "specialistType": "paediatrican"
     },
@@ -146,7 +146,7 @@
             "Adolescents",
             "Educational assessment"
         ],
-        "name": "PARKE",
+        "name": "Dr Arke",
         "number": "9370 9840",
         "specialistType": "paediatrican"
     },
@@ -155,7 +155,7 @@
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "CHADWIC",
+        "name": "Dr Hadwic",
         "number": "9380 6055",
         "specialistType": "paediatrican"
     }
