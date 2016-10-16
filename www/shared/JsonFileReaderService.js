@@ -23,9 +23,10 @@
           }
         ).then(
           function(data) {
-            return $http.get('default-data/auto_ped.json').then(
+            return $http.get('default-data/auto_psych.json').then(
               function success(res) {
-                return res.data.concat(res.data);
+                var combinedData = data.concat(res.data);
+                return combinedData;
               },
               function failure(res) {
                 console.log(res);
