@@ -1,0 +1,22 @@
+<ion-header-bar align-title="center" class="bar-stable">
+  <button class="button icon-left fa fa-chevron-left" ng-click="person.back()">Back</button>
+  <h1 class="title">{{person.title}}</h1>
+</ion-header-bar>
+
+<ion-content>
+
+  <div class="list card">
+
+    <div class="item">
+      <h2>{{person.personDetails.name}}</h2>
+      <p>{{person.personDetails.number}}</p>
+    </div>
+
+    <div class="item item-body">
+      <p ng-repeat="detail in person.keys(person.personDetails)">
+        <strong>{{person.prettyTitle(detail)}}: </strong>{{person.prettyList(person.personDetails[detail])}}
+      </p>
+    </div>
+
+  </div>
+</ion-content>

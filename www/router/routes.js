@@ -39,6 +39,7 @@
       name: 'specialist',
       url: '/specialist',
       params: {
+        history: '',
         persons: []
       },
       templateUrl: '../states/specialist/specialist-view.html',
@@ -46,10 +47,24 @@
       controllerAs: 'specialist'
     };
 
+    var person = {
+      name: 'person',
+      url: '/person',
+      params: {
+        history: '',
+        person: []
+      },
+      templateUrl: '../states/person-details/person-details-view.html',
+      controller: 'PersonDetailsController',
+      controllerAs: 'person'
+    };
+
     $urlRouterProvider.otherwise('/');
     $stateProvider.state(mainState);
     $stateProvider.state(findSpecialists);
     $stateProvider.state(filter);
+    $stateProvider.state(specialist);
+    $stateProvider.state(person);
 
   }
 

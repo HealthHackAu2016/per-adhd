@@ -15,14 +15,18 @@
     vm.title = $stateParams.title;
     vm.filterList = getFilterList();
     vm.getPersonList = getPersonList;
+    vm.back = back;
 
     function getPersonList(filter){
       var personList = SpecialistsService.getBy(
         function(person) {
+          if(Array.isArray(person[filterType])){
+            return person[filterType].indexOf(filter) !== -1
+          }
           return person[filterType] === filter;
         }
       );
-      console.log(personList);
+      $state.go('specialist', {persons: personList, history: {state: 'filter',filterBy: $stateParams.filterBy, title: $stateParams.title}});
     }
 
     function getFilterList() {
@@ -36,6 +40,10 @@
         else if(types.indexOf(specialist[filterType]) === -1) types.push(specialist[filterType])
       });
       return types;
+    }
+
+    function back() {
+      $state.go('findSpecialists');
     }
 
   }
