@@ -23,17 +23,27 @@
     vm.back = back;
 
     function search() {
-      var persons = SpecialistsService.getBy(searchFilterFunction);
-      if (persons.length > 0) $state.go('specialist', {
-        persons: persons,
-        history: {state: 'findSpecialists', filterBy: null, title: null}
-      });
-      else {
-        $ionicPopup.alert({
-          title: 'No results found'
-        });
-        vm.searchText = '';
-      }
+      SpecialistsService.getBy(searchFilterFunction).then(
+        function (personList) {
+          return personList
+        }
+      ).then(
+        function (persons) {
+
+          if (persons.length > 0) {
+            $state.go('specialist', {
+              persons: persons,
+              history: {state: 'findSpecialists', filterBy: null, title: null}
+            });
+          }
+          else {
+            $ionicPopup.alert({
+              title: 'No results found'
+            });
+            vm.searchText = '';
+          }
+        }
+      );
     }
 
     function searchFilterFunction(person) {

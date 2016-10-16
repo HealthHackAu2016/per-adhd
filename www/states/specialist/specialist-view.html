@@ -6,7 +6,7 @@
 <ion-content>
 
 
-  <div class="list card" ng-repeat="person in specialist.persons">
+  <div class="list card" ng-repeat="person in specialist.persons track by $index">
 
     <a class="item" ng-click="specialist.goToPerson(person)">
       <h2><strong>Name: </strong>{{person.name}}</h2>

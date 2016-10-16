@@ -1,4 +1,4 @@
-(function(){
+(function () {
   "use strict";
 
   angular
@@ -13,33 +13,44 @@
     var filterType = $stateParams.filterBy;
 
     vm.title = $stateParams.title;
-    vm.filterList = getFilterList();
+    vm.filterList = [];
     vm.getPersonList = getPersonList;
     vm.back = back;
 
-    function getPersonList(filter){
-      var personList = SpecialistsService.getBy(
-        function(person) {
-          if(Array.isArray(person[filterType])){
+    getFilterList();
+
+    function getPersonList(filter) {
+      SpecialistsService.getBy(
+        function (person) {
+          if (Array.isArray(person[filterType])) {
             return person[filterType].indexOf(filter) !== -1
           }
           return person[filterType] === filter;
         }
-      );
-      $state.go('specialist', {persons: personList, history: {state: 'filter',filterBy: $stateParams.filterBy, title: $stateParams.title}});
+      ).then(function (personList) {
+        $state.go('specialist', {
+          persons: personList,
+          history: {state: 'filter', filterBy: $stateParams.filterBy, title: $stateParams.title}
+        });
+      });
     }
 
     function getFilterList() {
       var types = [];
-      SpecialistsService.getAll().forEach( function(specialist) {
-        if(Array.isArray(specialist[filterType])) {
-          specialist[filterType].forEach(function(tag) {
-            if(types.indexOf(tag) === -1) types.push(tag)
-          })
-        }
-        else if(types.indexOf(specialist[filterType]) === -1) types.push(specialist[filterType])
-      });
-      return types;
+      SpecialistsService.getAll().then(
+        function (list) {
+          list.forEach(function (specialist) {
+            if (Array.isArray(specialist[filterType])) {
+              specialist[filterType].forEach(
+                function (tag) {
+                  if (types.indexOf(tag) === -1) types.push(tag)
+                })
+            }
+            else if (types.indexOf(specialist[filterType]) === -1) types.push(specialist[filterType])
+          });
+          console.log(types);
+          vm.filterList = types;
+        });
     }
 
     function back() {

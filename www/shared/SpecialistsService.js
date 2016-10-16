@@ -5,43 +5,15 @@
     .module('app')
     .factory('SpecialistsService', SpecialistsService);
 
-  function SpecialistsService() {
+  SpecialistsService.$inject = ['JsonFileReaderService'];
+  function SpecialistsService(JsonFileReaderService) {
 
     var service = {};
 
     service.getBy = getBy;
     service.getAll = getAll;
     service.prettyList = prettyList;
-
-    var mockData =
-      [
-        {
-          specialistType: 'Paediatritions',
-          expertise: ['ADHD', 'Sky Diving', 'Being Awesome'],
-          area: 'Joondalup',
-          name: 'Mandy',
-          number: '000-000'
-        },
-        {
-          specialistType: 'Psych',
-          expertise: ['Children', 'ADHD', 'Being Awesome', 'Battling Aliens', 'Fist Fights'],
-          area: 'woop woop',
-          name: 'Bob',
-          number: '111-111'
-        },
-        {
-          specialistType: 'Paediatritions',
-          expertise: ['Infants 0- 2 years', 'children 2-5 years', 'children 5-12 years', 'adolescents', 'Autism assessments', 'developmental delay assessments', 'developmental challenges/concerns/delay', 'behavioural challenges/concerns', 'attention', 'learning and behaviour problems', 'General Paediatric Assessments',  'Multidisciplinary Paediatric Clinic', 'Gastroenterologist', 'Hepatologist', 'Neurologist', 'Paediatric Surgeon', 'Respiratory specialist', 'Cardiologist', 'Dietitian', 'Paediatric endoscopy services', 'Sleep study', 'Paediatric EEG service', 'Paediatric ECHO'],
-          name: 'Dr Nikki Panotidis',
-          clinicName: 'Perth Paediatrics',
-          address: 'Suite 5/2 McCourt Street',
-          suburb: 'West Leederville',
-          area: 'Central Metropolitan',
-          email: 'contact@perthpaediatrics.com.au',
-          website: 'http://www.perthpaediatrics.com.au/',
-          number: '6162 1615'
-        }
-      ];
+    service.data = JsonFileReaderService.readFile().then(function(data){ return data});
 
     function prettyList(uglyList, lengthMax) {
       var maximumLength = lengthMax;
@@ -59,15 +31,15 @@
     }
 
     function getBy(getterFunction) {
-      if(getterFunction ==  null) return mockData;
+      if(getterFunction ==  null) return service.data;
       else {
-        service.currentList = mockData.filter(getterFunction);
+        service.currentList = service.data.then(function(data){return data.filter(getterFunction)});
         return service.currentList;
       }
     }
 
     function getAll() {
-      return mockData;
+      return service.data;
     }
 
     return service;
