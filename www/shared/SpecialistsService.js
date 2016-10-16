@@ -38,7 +38,6 @@
       if(getterFunction ==  null) return service.data;
       else {
         service.currentList = service.data.then(function(data){return data.filter(getterFunction)});
-        console.log(service.currentList);
         return service.currentList;
       }
     }
