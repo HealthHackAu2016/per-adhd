@@ -21,7 +21,9 @@
       if(maximumLength == null) maximumLength = Math.MAX_VALUE;
       var pretty = uglyList;
 
-      if(Array.isArray(pretty)) pretty = pretty.join(", ");
+      if(Array.isArray(pretty)) {
+        pretty = pretty.join(", ")
+      }
 
       if(pretty.length > maximumLength) {
         pretty = pretty.substring(0, maximumLength) + '...';
