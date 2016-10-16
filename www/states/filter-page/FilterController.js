@@ -24,7 +24,13 @@
       SpecialistsService.getBy(
         function (person) {
           if (Array.isArray(person[filterType])) {
-            return person[filterType].indexOf(filter) !== -1
+            if(filter == 'Unlisted'){
+              return person[filterType].indexOf('') !== -1
+            }
+            else  return person[filterType].indexOf(filter) !== -1
+          }
+          if(filter == 'Unlisted') {
+            return person[filterType] === ''
           }
           return person[filterType] === filter;
         }
@@ -49,6 +55,12 @@
             }
             else if (types.indexOf(specialist[filterType]) === -1) types.push(specialist[filterType])
           });
+          types = types.map(
+            function (value) {
+              return value !== ''? value : 'Unlisted';
+            }
+          );
+          types.sort();
           vm.filterList = types;
         });
     }
