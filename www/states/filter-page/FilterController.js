@@ -16,6 +16,7 @@
     vm.filterList = [];
     vm.getPersonList = getPersonList;
     vm.back = back;
+    vm.prettyTitle = SpecialistsService.prettyTitle;
 
     getFilterList();
 
@@ -48,7 +49,6 @@
             }
             else if (types.indexOf(specialist[filterType]) === -1) types.push(specialist[filterType])
           });
-          console.log(types);
           vm.filterList = types;
         });
     }

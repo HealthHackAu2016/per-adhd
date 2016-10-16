@@ -16,7 +16,7 @@
     vm.back = back;
     vm.keys = keys;
     vm.prettyList = SpecialistsService.prettyList;
-    vm.prettyTitle = prettyTitle;
+    vm.prettyTitle = SpecialistsService.prettyTitle;
 
     function keys(object) {
       var keys = [];
@@ -26,10 +26,6 @@
         keys.push(key);
       }
      return keys;
-    }
-
-    function prettyTitle(word) {
-      return word.replace(/([A-Z])/g, ' $1').replace(/^./, function(str){ return str.toUpperCase()});
     }
 
     function back() {
