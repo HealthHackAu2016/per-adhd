@@ -11,9 +11,9 @@
     {
         "area": "WA",
         "expertise": [
+            "Gastroenterologist",
             "ECHO",
-            "General paediatric assessments",
-            "Gastroenterologist"
+            "General paediatric assessments"
         ],
         "name": "JUDKINSA",
         "number": "6162 1615",
@@ -22,8 +22,8 @@
     {
         "area": "JOONDALUP WA",
         "expertise": [
-            "Adolescents",
-            "Autism Spectrum Disorder"
+            "Autism Spectrum Disorder",
+            "Adolescents"
         ],
         "name": "JONGELIN",
         "number": "9400 9910",
@@ -41,10 +41,10 @@
     {
         "area": "WA",
         "expertise": [
-            "Adolescents",
+            "Gastroenterologist",
             "ECHO",
             "Autism Spectrum Disorder",
-            "Gastroenterologist"
+            "Adolescents"
         ],
         "name": "PANOTIDISN",
         "number": "6162 1615",
@@ -62,8 +62,8 @@
     {
         "area": "JOONDALUP WA",
         "expertise": [
-            "Adolescents",
-            "Autism Spectrum Disorder"
+            "Autism Spectrum Disorder",
+            "Adolescents"
         ],
         "name": "BEL",
         "number": "9300 9559",
@@ -90,8 +90,8 @@
     {
         "area": "JOONDALUP WA",
         "expertise": [
-            "Adolescents",
-            "Autism Spectrum Disorder"
+            "Autism Spectrum Disorder",
+            "Adolescents"
         ],
         "name": "SMIT",
         "number": "9300 9559",
@@ -100,8 +100,8 @@
     {
         "area": "JOONDALUP WA",
         "expertise": [
-            "Autism Spectrum Disorder",
-            "Griffiths developmental assessments"
+            "Griffiths developmental assessments",
+            "Autism Spectrum Disorder"
         ],
         "name": "SRINIVAS JOIR",
         "number": "9400 9910",
@@ -110,9 +110,9 @@
     {
         "area": "WARWICK WA",
         "expertise": [
-            "Adolescents",
+            "Autism Spectrum Disorder",
             "General paediatrician",
-            "Autism Spectrum Disorder"
+            "Adolescents"
         ],
         "name": "HAA",
         "number": "9203 5641",
@@ -121,9 +121,9 @@
     {
         "area": "WEST PERTH WA",
         "expertise": [
-            "Autism Spectrum Disorder",
             "EEG services",
-            "Griffiths developmental assessments"
+            "Griffiths developmental assessments",
+            "Autism Spectrum Disorder"
         ],
         "name": "SRINIVAS JOIR",
         "number": "9321 9594",
@@ -132,8 +132,8 @@
     {
         "area": "MIDLAND WA",
         "expertise": [
-            "Adolescents",
-            "Autism Spectrum Disorder"
+            "Autism Spectrum Disorder",
+            "Adolescents"
         ],
         "name": "CHRISTIER",
         "number": "9274 6982",
@@ -142,9 +142,9 @@
     {
         "area": "MOUNT LAWLEY WA",
         "expertise": [
-            "Educational assessment",
+            "Autism Spectrum Disorder",
             "Adolescents",
-            "Autism Spectrum Disorder"
+            "Educational assessment"
         ],
         "name": "PARKE",
         "number": "9370 9840",
