@@ -201,13 +201,6 @@
         "specialistType": "Psychologist"
     },
     {
-        "area": "",
-        "expertise": [],
-        "name": "",
-        "number": "",
-        "specialistType": "Psychologist"
-    },
-    {
         "area": "Fremantle",
         "expertise": [
             "OCD"
