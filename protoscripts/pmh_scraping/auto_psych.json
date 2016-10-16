@@ -1,0 +1,737 @@
+[
+    {
+        "area": "WEST PERTH WA",
+        "expertise": [
+            "Home and school visits"
+        ],
+        "name": "Dr Yajna Coci",
+        "number": "",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "UWA CRAWLEY WA",
+        "expertise": [
+            "Speech pathology",
+            "Adolescents"
+        ],
+        "name": "Ass Prof Susan Byrne Dr Bianca Kingdon Dr Marilyn Fitzgerald",
+        "number": "6488 2655",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SHENTON PARK WA",
+        "expertise": [
+            "Self-esteem",
+            "Adolescents",
+            "ADHD",
+            "OCD"
+        ],
+        "name": "Peter Dunlop Patricia Robertson",
+        "number": "9388 6834",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "ECU WANNEROO WA",
+        "expertise": [
+            "Depression",
+            "OCD",
+            "Stress maangement"
+        ],
+        "name": "Dr Paul Masterman",
+        "number": "9303 7811",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "PO",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Yvette Williams",
+        "number": "0435 4564",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEMBLEY WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Kirstin Bouse",
+        "number": "9272 4018",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "NEDLANDS WA",
+        "expertise": [
+            "Adolescents",
+            "Anxiety",
+            "OCD"
+        ],
+        "name": "Jane Faulkner",
+        "number": "9386 9500",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SUBIACO WA",
+        "expertise": [
+            "Adolescents",
+            "ADHD"
+        ],
+        "name": "Dr Tania Bianco",
+        "number": "9321 2402",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "BOORAGOON WA",
+        "expertise": [
+            "Attachment/parent-child relationship issues",
+            "ADHD"
+        ],
+        "name": "Dr Kellie Cassidy Ms Karri Stewart",
+        "number": "9317 7914",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "BENTLEY WA",
+        "expertise": [
+            "Self-esteem",
+            "OCD"
+        ],
+        "name": "Dr Rebecca Anderson Clinic Coordinator Dr Clair Lawson Dr Trevor Mazzucchelli Dr Monique Nesa Mr Paul Jeffery",
+        "number": "9266 3679",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "ATTADALE WA",
+        "expertise": [
+            "Adolescents"
+        ],
+        "name": "Anna Czajka",
+        "number": "",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MADELEY WA",
+        "expertise": [
+            "Self-esteem",
+            "Social skills",
+            "ADHD",
+            "OCD",
+            "Stress maangement"
+        ],
+        "name": "Dr Sarron Goldman",
+        "number": "6304 5824",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "JOONDALUP WA",
+        "expertise": [
+            "OCD",
+            "Stress maangement",
+            "Clinical psychology"
+        ],
+        "name": "Michelle Doyle",
+        "number": "9301 0905",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEST PERTH WA",
+        "expertise": [
+            "Infants 0-2 years",
+            "ADHD"
+        ],
+        "name": "Pippa Laing",
+        "number": "9322 9066",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "BATEMA",
+        "expertise": [
+            "OCD",
+            "Home and school visits"
+        ],
+        "name": "Andrea Willsher",
+        "number": "9313 5566",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "RIVERTON WA",
+        "expertise": [
+            "Self-esteem",
+            "Anxiety",
+            "OCD"
+        ],
+        "name": "Suzanne Scott",
+        "number": "9354 8777",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WOODVALE WA",
+        "expertise": [
+            "Adolescents",
+            "Stress maangement"
+        ],
+        "name": "Flavia Bises",
+        "number": "9309 1429",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEST PERTH WA",
+        "expertise": [
+            "Adolescents"
+        ],
+        "name": "Nick Ramondo",
+        "number": "9322 9066",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEST PERT",
+        "expertise": [
+            "Adolescents"
+        ],
+        "name": "Danielle Dix Hannelie Scheffer Emily Mc Gurk Vanessa Gent Dr Kellie Jones Dr Alison Gomes",
+        "number": "9486 7282",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MIDLAND WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Anne Walters",
+        "number": "9250 6002",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "",
+        "expertise": [],
+        "name": "",
+        "number": "",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "FREMANTLE WA",
+        "expertise": [
+            "OCD"
+        ],
+        "name": "Angela Martinovich Jan Robinson Kathryn Schneider",
+        "number": "9430 6487",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "ROCKINGHAM WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Angela Martinovich Janet Robinson Kathryn Schneider",
+        "number": "9527 6596",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "BEACONSFIELD WA",
+        "expertise": [
+            "Self-esteem",
+            "Self-harm",
+            "ADHD",
+            "OCD",
+            "Sleeping disorders"
+        ],
+        "name": "Dr Jillian Horton Senior Clinical Psychologist",
+        "number": "9487 1859",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "LIFEWORKS SHENTON PARK WA",
+        "expertise": [
+            "Academic performance",
+            "Anger management",
+            "Adolescents",
+            "OCD",
+            "Stress maangement"
+        ],
+        "name": "Dr Phyllis Prout Mr Dawson Cooke",
+        "number": "9382 2720",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "NEDLANDS WA",
+        "expertise": [
+            "OCD"
+        ],
+        "name": "Claudia Lazzari",
+        "number": "9386 9500",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "CANNING VALE WA",
+        "expertise": [
+            "Adolescents"
+        ],
+        "name": "Anna Czajka",
+        "number": "9456 0424",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "OCEAN REEF WA",
+        "expertise": [
+            "OCD"
+        ],
+        "name": "Nadene Linden",
+        "number": "9403 4911",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MT LAWLEY WA",
+        "expertise": [
+            "Attention",
+            "ADHD"
+        ],
+        "name": "Nedialka Lazarov",
+        "number": "9277 8938",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SUBIACO WA",
+        "expertise": [],
+        "name": "Dr Mimma Nikoloski",
+        "number": "9388 7622",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "JINDALEE WA",
+        "expertise": [
+            "Self-esteem",
+            "ADHD"
+        ],
+        "name": "Anoushka Rassau Dr Maureen Fox",
+        "number": "",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MANNING",
+        "expertise": [
+            "Adolescents",
+            "ADHD"
+        ],
+        "name": "Gretta Little",
+        "number": "9450 5076",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WHITE GUM VALLEY WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Deborah Skender",
+        "number": "6113 7319",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WANGARA WA",
+        "expertise": [
+            "OCD"
+        ],
+        "name": "Peter Dunlop Patricia Robertson Pamela Woods",
+        "number": "9381 2839",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "APPLECROSS WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Dr Marilyn Barton",
+        "number": "9364 4999",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEST PERTH WA",
+        "expertise": [
+            "Self-esteem",
+            "Adolescents",
+            "Stress maangement"
+        ],
+        "name": "Stephanie Bennett",
+        "number": "9324 3288",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MIDLAND WA",
+        "expertise": [],
+        "name": "Angela Carroll Circle Security",
+        "number": "9443 3718",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "KIDU MURDOCH WA",
+        "expertise": [],
+        "name": "Dr Corinne Reid Dr Mike Monisse Redman Dr Helen Correia",
+        "number": "9360 2258",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WA",
+        "expertise": [
+            "Self-esteem",
+            "ADHD",
+            "OCD"
+        ],
+        "name": "Kylie Small",
+        "number": "6313 0611",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MELVILLE WA",
+        "expertise": [
+            "Self-esteem",
+            "ADHD",
+            "OCD"
+        ],
+        "name": "Michelle Marsh",
+        "number": "9200 6278",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MANNING WA",
+        "expertise": [],
+        "name": "Trinity Herbert Natalie Hodgen",
+        "number": "9450 5233",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "NEDLANDS WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Andrew Relph",
+        "number": "9386 9500",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MT LAWLEY WA",
+        "expertise": [
+            "ADHD",
+            "OCD",
+            "Home and school visits"
+        ],
+        "name": "Aldo Gurgone",
+        "number": "9277 8938",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SUBIACO WA",
+        "expertise": [],
+        "name": "Amy Goldstein",
+        "number": "6161 1597",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MT HAWTHORN WA",
+        "expertise": [
+            "ADHD",
+            "OCD",
+            "Autism Spectrum Disorder"
+        ],
+        "name": "Lucious Arco Angella Carroll Rochelle Castine Raylene Lewis Suzanne Midford",
+        "number": "9443 3718",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "PO INGLEWOOD WA",
+        "expertise": [],
+        "name": "Names Clinicians Dianne Casella",
+        "number": "",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "BEDFORD WA",
+        "expertise": [
+            "ADHD",
+            "OCD",
+            "Home and school visits"
+        ],
+        "name": "Kirstin Bouse",
+        "number": "9272 4018",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "ROSSMOYNE WA",
+        "expertise": [
+            "Self-esteem",
+            "OCD"
+        ],
+        "name": "Derek Cohen",
+        "number": "6313 0667",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "NEDLANDS WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Trevor Rule",
+        "number": "9386 9500",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "FREMANTLE WA",
+        "expertise": [
+            "OCD"
+        ],
+        "name": "Dr Brendon Dellar Dr Georgie White Ms Kim Mercer Maria Krabbe Dr Catherine Jackson",
+        "number": "9463 6311",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "JOONDALUP WA",
+        "expertise": [
+            "Academic performance",
+            "Home and school visits"
+        ],
+        "name": "Dr Linda Basson",
+        "number": "9300 2741",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "EAST FREMANTLE WA",
+        "expertise": [
+            "Adolescents",
+            "OCD"
+        ],
+        "name": "Carol Anne Jones",
+        "number": "6488 0009",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MT LAWLEY WA",
+        "expertise": [
+            "OCD",
+            "Self development"
+        ],
+        "name": "Wendy Britten",
+        "number": "9271 1009",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WANGARA WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Anne Walters",
+        "number": "9409 5563",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "FLOREAT WA",
+        "expertise": [
+            "Self-esteem",
+            "OCD",
+            "Sleeping disorders"
+        ],
+        "name": "Kate Smith",
+        "number": "9381 5270",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SOUTH FREMANTLE WA",
+        "expertise": [
+            "OCD"
+        ],
+        "name": "Lai Meng Yap",
+        "number": "9335 4177",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "KELMSCOTT WA",
+        "expertise": [],
+        "name": "Graeme Burton",
+        "number": "",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MIDLAND WA",
+        "expertise": [
+            "Social skills",
+            "ADHD",
+            "OCD",
+            "Stress maangement"
+        ],
+        "name": "Jessica Pitt Bradley Lange Gabby Goodier Jane Ebert",
+        "number": "9463 6311",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEST PERTH WA",
+        "expertise": [
+            "Self development"
+        ],
+        "name": "Names Clinicians Bridget Boultwood",
+        "number": "6314 4666",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WEMBLEY WA",
+        "expertise": [],
+        "name": "Ms Robyn Bett Ms Veronica Holyoak Ms Carol Smith",
+        "number": "9284 1765",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SUBIACO WA",
+        "expertise": [
+            "Self-esteem",
+            "OCD"
+        ],
+        "name": "Paul Jeffery Michelle La Puma",
+        "number": "6161 1597",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MT LAWLEY WA",
+        "expertise": [
+            "Speech pathology",
+            "Clinical psychology"
+        ],
+        "name": "Dr Genevieve Milnes",
+        "number": "9227 9796",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MIDLAND WA",
+        "expertise": [
+            "ADHD",
+            "OCD"
+        ],
+        "name": "Dr Karen Brooker Dr Catherine Faull",
+        "number": "9274 4877",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "CLAREMONT WA",
+        "expertise": [
+            "Adolescents",
+            "OCD"
+        ],
+        "name": "Marcia Mumme",
+        "number": "9285 0171",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "OCEAN REEF WA",
+        "expertise": [
+            "Depression",
+            "OCD",
+            "Home and school visits"
+        ],
+        "name": "Christine Moorehouse",
+        "number": "9403 0602",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "FREMANTLE WA ROCKINGHAM WA",
+        "expertise": [
+            "Self-esteem",
+            "Adolescents",
+            "OCD"
+        ],
+        "name": "Paul Ryan",
+        "number": "9335 6425",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "NEDLANDS WA",
+        "expertise": [
+            "Self-esteem",
+            "OCD",
+            "Self development"
+        ],
+        "name": "Sue Mc Donald",
+        "number": "9386 9500",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "WA",
+        "expertise": [],
+        "name": "Kylie Small",
+        "number": "6313 0611",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "CITY BEACH WA",
+        "expertise": [],
+        "name": "Martin Exell",
+        "number": "9385 8178",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "NORTH PERTH WA",
+        "expertise": [],
+        "name": "Rachel Gallagher Darin Cairns Tiffany Rochester",
+        "number": "9443 5630",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "DUNCRAIG WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Dr Isabel Fernandez Catherine Brennan Michelle Lund",
+        "number": "9447 2022",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MADELEY WA",
+        "expertise": [
+            "ADHD",
+            "OCD",
+            "Parenting"
+        ],
+        "name": "Rochelle Masters Janice Dommisse",
+        "number": "9467 6195",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SOUTH FREMANTLE WA",
+        "expertise": [],
+        "name": "Lucy Dow",
+        "number": "9430 5995",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SUBIACO WA",
+        "expertise": [
+            "Children 2-5 years",
+            "Self-esteem",
+            "Adolescents",
+            "Home and school visits",
+            "Stress maangement"
+        ],
+        "name": "Dr Clair Lawson Rebecca Jamieson Jane Norgard Kelly Fullarton Dr Alicia Handley Michelle Lund",
+        "number": "9200 5696",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "KALAMUNDA WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Deborah Skender",
+        "number": "9257 3129",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "MIDLAND WA",
+        "expertise": [],
+        "name": "Names Clinicians Rachael Tan Linda Baldwin",
+        "number": "9274 7062",
+        "specialistType": "psychologist"
+    },
+    {
+        "area": "SCARBOROUGH WA",
+        "expertise": [
+            "ADHD"
+        ],
+        "name": "Zyron Krupenia",
+        "number": "9245 3242",
+        "specialistType": "psychologist"
+    }
+]
