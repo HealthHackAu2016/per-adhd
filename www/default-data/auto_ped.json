@@ -1,0 +1,162 @@
+[
+    {
+        "area": "ARMADALE WA",
+        "expertise": [
+            "Adolescents"
+        ],
+        "name": "CHU",
+        "number": "9497 1771",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WA",
+        "expertise": [
+            "Gastroenterologist",
+            "ECHO",
+            "General paediatric assessments"
+        ],
+        "name": "JUDKINSA",
+        "number": "6162 1615",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "JOONDALUP WA",
+        "expertise": [
+            "Autism Spectrum Disorder",
+            "Adolescents"
+        ],
+        "name": "JONGELIN",
+        "number": "9400 9910",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "SUBIACO",
+        "expertise": [
+            "Autism Spectrum Disorder"
+        ],
+        "name": "SCURLOCKJ",
+        "number": "9381 7211",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WA",
+        "expertise": [
+            "Gastroenterologist",
+            "ECHO",
+            "Autism Spectrum Disorder",
+            "Adolescents"
+        ],
+        "name": "PANOTIDISN",
+        "number": "6162 1615",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "NEDLANDS WA",
+        "expertise": [
+            "Autism Spectrum Disorder"
+        ],
+        "name": "JESS",
+        "number": "",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "JOONDALUP WA",
+        "expertise": [
+            "Autism Spectrum Disorder",
+            "Adolescents"
+        ],
+        "name": "BEL",
+        "number": "9300 9559",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WESTMINSTER WA",
+        "expertise": [
+            "Adolescents"
+        ],
+        "name": "CHU",
+        "number": "9497 1771",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WEST LEEDERVILLE WA",
+        "expertise": [
+            "Autism Spectrum Disorder"
+        ],
+        "name": "WRA",
+        "number": "9380 6055",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "JOONDALUP WA",
+        "expertise": [
+            "Autism Spectrum Disorder",
+            "Adolescents"
+        ],
+        "name": "SMIT",
+        "number": "9300 9559",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "JOONDALUP WA",
+        "expertise": [
+            "Griffiths developmental assessments",
+            "Autism Spectrum Disorder"
+        ],
+        "name": "SRINIVAS JOIR",
+        "number": "9400 9910",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WARWICK WA",
+        "expertise": [
+            "Autism Spectrum Disorder",
+            "General paediatrician",
+            "Adolescents"
+        ],
+        "name": "HAA",
+        "number": "9203 5641",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WEST PERTH WA",
+        "expertise": [
+            "EEG services",
+            "Griffiths developmental assessments",
+            "Autism Spectrum Disorder"
+        ],
+        "name": "SRINIVAS JOIR",
+        "number": "9321 9594",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "MIDLAND WA",
+        "expertise": [
+            "Autism Spectrum Disorder",
+            "Adolescents"
+        ],
+        "name": "CHRISTIER",
+        "number": "9274 6982",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "MOUNT LAWLEY WA",
+        "expertise": [
+            "Autism Spectrum Disorder",
+            "Adolescents",
+            "Educational assessment"
+        ],
+        "name": "PARKE",
+        "number": "9370 9840",
+        "specialistType": "paediatrican"
+    },
+    {
+        "area": "WEST LEEDERVILLE WA",
+        "expertise": [
+            "Autism Spectrum Disorder"
+        ],
+        "name": "CHADWIC",
+        "number": "9380 6055",
+        "specialistType": "paediatrican"
+    }
+]

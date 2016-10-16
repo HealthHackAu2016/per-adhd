@@ -5,41 +5,41 @@
     .module('app')
     .factory('SpecialistsService', SpecialistsService);
 
-  function SpecialistsService() {
+  SpecialistsService.$inject = ['JsonFileReaderService'];
+  function SpecialistsService(JsonFileReaderService) {
 
     var service = {};
 
     service.getBy = getBy;
     service.getAll = getAll;
+    service.prettyList = prettyList;
+    service.data = JsonFileReaderService.readFile().then(function(data){ return data});
 
-    var mockData =
-      [
-        {
-          specialistType: 'Paediatritions',
-          expertise: ['ADHD', 'Sky Diving', 'Being Awesome'],
-          area: 'Joondalup',
-          name: 'Mandy',
-          number: '000-000'
-        },
-        {
-          specialistType: 'Psych',
-          expertise: ['Children', 'ADHD', 'Being Awesome'],
-          area: 'woop woop',
-          name: 'Bob',
-          number: '111-111'
-        }
-      ];
+    function prettyList(uglyList, lengthMax) {
+      var maximumLength = lengthMax;
+      if(maximumLength == null) maximumLength = Math.MAX_VALUE;
+      var pretty = uglyList;
+
+      if(Array.isArray(pretty)) pretty = pretty.join(", ");
+
+      if(pretty.length > maximumLength) {
+        pretty = pretty.substring(0, maximumLength) + '...';
+      }
+
+
+      return pretty;
+    }
 
     function getBy(getterFunction) {
-      if(getterFunction ==  null) return mockData;
+      if(getterFunction ==  null) return service.data;
       else {
-        service.currentList = mockData.filter(getterFunction);
+        service.currentList = service.data.then(function(data){return data.filter(getterFunction)});
         return service.currentList;
       }
     }
 
     function getAll() {
-      return mockData;
+      return service.data;
     }
 
     return service;

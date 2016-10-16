@@ -1,5 +1,5 @@
 <ion-header-bar align-title="center" class="bar-stable">
-  <button class="button icon-left fa fa-chevron-left" onclick="history.back()">Back</button>
+  <button class="button icon-left fa fa-chevron-left" ng-click="filter.back()">Back</button>
   <h1 class="title">{{filter.title}}</h1>
 </ion-header-bar>
 
@@ -8,7 +8,7 @@
   <ion-list>
     <a class="item item-icon-right" ng-repeat="filterText in filter.filterList" ng-click="filter.getPersonList(filterText)">
       {{filterText}}
-      <a class="icon fa fa-chevron-right"></a>
+    <i class="icon fa fa-chevron-right"></i>
     </a>
   </ion-list>
 </ion-content>
