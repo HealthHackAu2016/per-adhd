@@ -13,13 +13,8 @@
     vm.items = [
       {
         text: 'Find a Specialist',
-        imgSource: '../img/default-avatar.png',
+        imgSource: '../img/gfx_doctor.png',
         state: 'findSpecialists'
-      },
-      {
-        text: 'Notes & Prep',
-        imgSource: '../img/default-notes.png',
-        state: 'main'
       }
     ]
 
