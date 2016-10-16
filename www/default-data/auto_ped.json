@@ -1,162 +1,162 @@
 [
     {
-        "area": "ARMADALE WA",
+        "area": "Armadale",
         "expertise": [
             "Adolescents"
         ],
-        "name": "Dr Hu",
+        "name": "Dr Chu",
         "number": "9497 1771",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WA",
+        "area": "",
         "expertise": [
             "Gastroenterologist",
             "ECHO",
             "General paediatric assessments"
         ],
-        "name": "Dr Ggie Udkin",
+        "name": "Dr Aggie Judkin",
         "number": "6162 1615",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "JOONDALUP WA",
+        "area": "Joondalup",
         "expertise": [
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "Dr Ongelin",
+        "name": "Dr Jongelin",
         "number": "9400 9910",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "SUBIACO",
+        "area": "Subiaco",
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "Dr Acqueline Curloc",
+        "name": "Dr Jacqueline Scurloc",
         "number": "9381 7211",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WA",
+        "area": "",
         "expertise": [
             "Gastroenterologist",
             "ECHO",
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "Dr Ikki Anotidi",
+        "name": "Dr Nikki Panotidi",
         "number": "6162 1615",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "NEDLANDS WA",
+        "area": "Nedlands",
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "Dr Ess",
+        "name": "Dr Jess",
         "number": "",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "JOONDALUP WA",
+        "area": "Joondalup",
         "expertise": [
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "Dr El",
+        "name": "Dr Bel",
         "number": "9300 9559",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WESTMINSTER WA",
+        "area": "Westminster",
         "expertise": [
             "Adolescents"
         ],
-        "name": "Dr Hu",
+        "name": "Dr Chu",
         "number": "9497 1771",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WEST LEEDERVILLE WA",
+        "area": "West Leederville",
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "Dr Ra",
+        "name": "Dr Wra",
         "number": "9380 6055",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "JOONDALUP WA",
+        "area": "Joondalup",
         "expertise": [
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "Dr Mit",
+        "name": "Dr Smit",
         "number": "9300 9559",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "JOONDALUP WA",
+        "area": "Joondalup",
         "expertise": [
             "Griffiths developmental assessments",
             "Autism Spectrum Disorder"
         ],
-        "name": "Dr Avisha O",
+        "name": "Dr Ravisha Jo",
         "number": "9400 9910",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WARWICK WA",
+        "area": "Warwick",
         "expertise": [
             "Autism Spectrum Disorder",
             "General paediatrician",
             "Adolescents"
         ],
-        "name": "Dr Aa",
+        "name": "Dr Haa",
         "number": "9203 5641",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WEST PERTH WA",
+        "area": "West Perth",
         "expertise": [
             "EEG services",
             "Griffiths developmental assessments",
             "Autism Spectrum Disorder"
         ],
-        "name": "Dr Avisha O",
+        "name": "Dr Ravisha Jo",
         "number": "9321 9594",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "MIDLAND WA",
+        "area": "Midland",
         "expertise": [
             "Autism Spectrum Disorder",
             "Adolescents"
         ],
-        "name": "Dr Ichard Hristi",
+        "name": "Dr Richard Christi",
         "number": "9274 6982",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "MOUNT LAWLEY WA",
+        "area": "Mount Lawley",
         "expertise": [
             "Autism Spectrum Disorder",
             "Adolescents",
             "Educational assessment"
         ],
-        "name": "Dr Arke",
+        "name": "Dr Parke",
         "number": "9370 9840",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     },
     {
-        "area": "WEST LEEDERVILLE WA",
+        "area": "West Leederville",
         "expertise": [
             "Autism Spectrum Disorder"
         ],
-        "name": "Dr Hadwic",
+        "name": "Dr Chadwic",
         "number": "9380 6055",
-        "specialistType": "paediatrican"
+        "specialistType": "Paediatrican"
     }
 ]
